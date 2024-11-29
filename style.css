@@ -575,7 +575,6 @@ text-align: center;
     background-color: #F9FAFC;
 }
 .title-pricing{
-  height:81px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -607,8 +606,31 @@ line-height: 26px;
 display: flex;
 align-items: flex-end;
 text-align: center;
-
+margin-bottom: 60px;
 color: #858B91;
+
+
+}
+.checkkkbox{
+    display: flex;
+flex-direction: row;
+align-items: center;
+width:261px;
+}
+.checkkbox label, .checkkbox p{
+
+margin-left:10px;
+font-family: 'dm-sans-medium';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: -0.24px;
+
+color: #0F2137;
 
 
 }
@@ -630,7 +652,7 @@ input[type="checkbox"].ios8-switch + label:before {
     width: 40px; /* x*5 */
     height: 24px; /* x*3 */
     border-radius: 16px; /* x*2 */
-    background: #f4f4f4;
+    background: #FFC059;
     border: 1px solid #d9d9d9;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -658,5 +680,86 @@ input[type="checkbox"].ios8-switch:checked + label:after {
 input[type="checkbox"].ios8-switch:checked + label:before {
     background: #55D069;
 }
+.pricing-packs{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.startup-pack , .premium-pack{
+    background-color:#FFFFFF;
+    width:480px;
+    height:730px;
+    padding:20px 0 0 40px;
+}
 
+.startup-pack p, .premium-pack p {
+    color:#FFC059;
+    font-family: 'dm-sans';
+    font-size:22px;
+    font-weight:bold;
+}
+.startup-pack p span, .premium-pack p span {
+    color:#FFC059;
+    font-family: 'dm-sans';
+    font-size:26px;
+    font-weight:bold;
+}
+.pack-info p{
+
+    width:291px;
+    font-family: 'DM-Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    
+    color: #343D48;
+    
+    opacity: 0.65;
+    
+    }
+.pricing-packs h2{
+/* Business Class */
+
+
+font-family: 'dm-sans';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 29px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+letter-spacing: -0.55px;
+
+color: #0F2137;
+
+
+}
+.orange-benefit{
+    display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+.orange-benefit p{
+width:291px;
+font-family: 'dm-sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+display: flex;
+align-items: flex-end;
+
+color: #343D48;
+
+
+}
+.orange-benefit img{
+    width:20px;
+    height:20px;
+}
 /* PRICING PLAN */
