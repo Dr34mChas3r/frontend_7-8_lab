@@ -24,6 +24,8 @@ body{
 display:flex;
 align-items:center;
 flex-direction: column;
+height: 100%; 
+overflow-x: hidden;
 }
 #header{    
     background-image: url(img/header_bg.png);
@@ -855,3 +857,57 @@ color: #fffcec;
 
 }
 /* PRICING PLAN */
+/* ALL COMMENTS */
+#allComments{
+    background-color: #FFFCF7;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:900px;
+}
+#allComments h2 {
+
+margin-bottom: -10px;
+font-family: 'dm-sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 55px;
+/* identical to box height, or 183% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -1.5px;
+
+color: #0F2137;
+
+
+}
+#allComments p{
+   
+font-family: 'DM-Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #858B91;
+
+
+}
+#allComments img{
+    width:1600px;
+}
+.title-comments{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+/* ALL COMMENTS */
+/* footer */
+
+/* footer */
