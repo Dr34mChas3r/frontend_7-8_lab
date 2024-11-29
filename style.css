@@ -17,7 +17,7 @@
 }
 .container{
     margin-bottom: 100px;
-    width: 1382px;
+    width: 1920px;
 }
 /* HEADER */ 
 body{
@@ -32,7 +32,7 @@ flex-direction: column;
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .top-nav {
     display: flex;
@@ -134,10 +134,9 @@ color: #02073E;
 .flex-header-content{
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin-bottom: 100px;
-    width: 1382px;
 }
 .flex-header-content img{
     height:490.8px;
@@ -680,11 +679,15 @@ input[type="checkbox"].ios8-switch:checked + label:after {
 input[type="checkbox"].ios8-switch:checked + label:before {
     background: #55D069;
 }
+#pricingPlan{
+    height:1200px;
+}
 .pricing-packs{
     display:flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top:50px;
 }
 .startup-pack , .premium-pack{
     background-color:#FFFFFF;
@@ -738,7 +741,7 @@ color: #0F2137;
 
 
 }
-.orange-benefit{
+.orange-benefit, .cross-benefit{
     display: flex;
  flex-direction: row;
  align-items: center;
@@ -756,10 +759,102 @@ align-items: flex-end;
 
 color: #343D48;
 
+}
+.startup-pack img , .premium-pack img{
+    width:380px;
+    height:1px;
+}
+.cross-benefit p{
+    /* Drag & Drop Builder 1,000's of Templates Blog Support Tools eCo */
+
+width:291px;
+font-family: 'DM-Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+display: flex;
+align-items: flex-end;
+
+color: #343D48;
+
+opacity: 0.5;
 
 }
 .orange-benefit img{
     width:20px;
     height:20px;
+    margin-right:10px;
+}
+.cross-benefit img{
+    width:20px;
+    height:20px;
+    margin-right:10px;
+}
+.button-startupPack {
+    margin-left:4px;
+margin-top:30px;
+    display:flex;
+    align-items: center;
+    width:163px;
+    height:50px;
+    flex-direction: column;
+    justify-content: center;
+    background:#fffcec;
+    border-radius: 5px;
+    font-family: 'dm-sans';
+    font-weight: bold;
+    font-size:18px;
+    border:0px;
+}
+.button-startupPack a {
+font-family: 'DM-Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 40px;
+/* identical to box height, or 250% */
+text-align: center;
+
+color: #FFC059;
+
+
+    text-decoration: none;
+    text-align: center;
+
+
+}
+.button-premiumPack{
+    margin-left:4px;
+margin-top:30px;
+    display:flex;
+    align-items: center;
+    width:163px;
+    height:50px;
+    flex-direction: column;
+    justify-content: center;
+    background:#FFC059;
+    border-radius: 5px;
+    font-family: 'dm-sans';
+    font-weight: bold;
+    font-size:18px;
+    border:0px;
+}
+.button-premiumPack a{
+    font-family: 'DM-Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 40px;
+/* identical to box height, or 250% */
+text-align: center;
+
+color: #fffcec;
+
+
+    text-decoration: none;
+    text-align: center;
+
 }
 /* PRICING PLAN */
