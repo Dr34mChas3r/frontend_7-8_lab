@@ -24,15 +24,17 @@
     width: 1920px;
 }
 /* HEADER */ 
+
 body{
 display:flex;
 align-items:center;
 flex-direction: column;
-height: 100%; 
+margin:0;
 overflow-x: hidden;
 }
 #header{    
     background-image: url(img/header_bg.png);
+    margin-bottom: 0;
 }
 .top-menu{
     display:flex;
@@ -262,6 +264,7 @@ opacity: 0.6;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top:64px;
 }
 .service1, .service2{
     display: flex;
@@ -425,6 +428,7 @@ line-height: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-bottom:0px;
 }
 .workHard-header{
 width:510px;
@@ -508,6 +512,7 @@ color: #3183FF;
     display:flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: -5px;
 }
 .sf-content-header{
     display:flex;
@@ -561,6 +566,7 @@ text-align: center;
 }
 .sf-image img{
     max-width: 100%;
+    margin-left:80px;
 }
 .slideFeatures-content{
     display: flex;
@@ -578,11 +584,13 @@ text-align: center;
 /* PRICING PLAN */
 #pricingPlan{
     background-color: #F9FAFC;
+    margin-bottom: 0;
 }
 .title-pricing{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top:55px;
 }
 .title-pricing h3{
 
@@ -693,7 +701,6 @@ input[type="checkbox"].ios8-switch:checked + label:before {
     align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 0px -15px 0px -15px;
     margin-top:50px;
 }
 .startup-pack , .premium-pack{
@@ -701,8 +708,15 @@ input[type="checkbox"].ios8-switch:checked + label:before {
     width:480px;
     height:730px;
     padding:20px 0 0 40px;
+    margin-left:25px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.05), 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
+.premium-pack{
+    margin-right:480px;
+}
+.startup-pack{
+    margin-left:480px;
+}
 .startup-pack p, .premium-pack p {
     color:#FFC059;
     font-family: 'dm-sans';
@@ -872,6 +886,7 @@ color: #fffcec;
     flex-direction: column;
     align-items: center;
     height:900px;
+    margin-bottom: 0;
 }
 #allComments h2 {
 
@@ -918,11 +933,9 @@ color: #858B91;
 /* ALL COMMENTS */
 /* footer */
 #footer{
-    height:568px;
+height: 568px;
     background-color: #353448;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+margin-bottom:-5px;
 }
 #footer h2{
 
@@ -1007,14 +1020,16 @@ color:#FFFFFF;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 .footer-tab{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    min-width: 1920px;
     height: 100px;
     background-color: #2B293E;
-    margin-top:135px;
+    margin-top:156px;
 }
 .footer-logo{
     display: flex;
