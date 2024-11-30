@@ -1189,25 +1189,29 @@ color: #FFFFFF;
     .tab-section-sf img{
         overflow:hidden;
         width:200px;
+
     }
-    #pricingPlan{
-        margin-left:-150px;
+    .sf-image{
+        margin-left:-25px;
     }
-    #allComments{
-        margin-left:-150px;
+    .sf-content{
+        margin-left: 400px;
     }
+
+    
     #allComments img{
-        margin-left: 100px;
+        width:1250px;
+        height: auto;
     }
-    #footer{
-        margin-left:-250px;
-    }
-    .footer-tab{
-        justify-content: space-evenly;
-    }
-    .leftside-footer{
-        margin-right:-100px;
-    }
+   .footer-tab{
+    justify-content: space-evenly;
+   }
+   .leftside-footer{
+    margin-left:250px;
+   }
+   .rightside-footer{
+    margin-left:-250px;
+   }
   }
 @media only screen and (max-width: 991px) {
 
