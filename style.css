@@ -1170,12 +1170,15 @@ color: #FFFFFF;
     .workHard-image img {
         height: 504px;
         width: 434px;
+
+    }
+    .workHard-image{
         margin-left:-250px;
     }
     .features-image img, .features-image {
         width: 553px;
         height: 507.5px;   
-        margin-left:-150px; 
+        margin-left:-38px; 
     }
     #slideFeatures{
         margin-left:-100px;
@@ -1186,16 +1189,6 @@ color: #FFFFFF;
     .tab-section-sf img{
         overflow:hidden;
         width:200px;
-    }
-    .sf-image{
-        margin-left:-100px;
-        object-fit: cover;
-        width:600px;
-        overflow:hidden;
-    }
-    .sf-image img{  
-        overflow:hidden;
-        width:790px;
     }
     #pricingPlan{
         margin-left:-150px;
