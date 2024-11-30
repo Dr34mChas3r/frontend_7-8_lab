@@ -41,6 +41,7 @@ overflow-x: hidden;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin-top:30px;
 }
 .top-nav {
     display: flex;
@@ -226,10 +227,6 @@ color: #02073E;
     color:#FFFFFF;
 
 }
-.header-img{
-    height:741.1px;
-    width:auto;
-}
 .sponsors{
     display: flex;
     flex-direction: row;
@@ -350,6 +347,7 @@ color: #0F2137;
 
 
 }
+
 .features-image img {
     width:790px;
     height:725px;
@@ -1098,3 +1096,132 @@ color: #FFFFFF;
 
 }
 /* footer */
+/*Media query*/
+@media only screen and (max-width: 1650px) {
+   .sf-image{
+    margin-right:-80px;
+   }
+  }
+@media only screen and (max-width: 1400px) {
+  .header-img img{
+    width:600px;
+    height:auto;
+  }
+  .workHard-content{
+    margin-left:250px;
+  }
+  .workHard-image{
+    margin-right:250px;
+  }
+  
+  }
+  .leftside-footer{
+    margin-left:250px;
+  }
+  .rightside-footer{
+    margin-right:250px;
+  }
+@media only screen and (max-width: 1250px) {
+    .top-menu{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left:120px;
+        max-width: 1650px;
+    }
+    .rightside-header{
+        margin-left:15px;
+    }
+    .top-nav{
+        margin-left:-25px;
+    }
+    .header-img{
+        display: none;
+    }
+    .flex-header-content{
+        display: flex;
+        max-width: 1650px;
+        justify-content:center;
+    }
+    .header-content{
+        margin-left:400px;
+    }
+    .sponsors{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width:490px;
+        height:42px;
+    }
+    #service{
+        display: flex;
+        flex-direction:column;
+    }
+    .service1{
+        margin-bottom:20px;
+    }
+    .features-content{
+        margin-left:-50px;
+    }
+    #workHard{
+        margin-left:150px;
+    }
+    .workHard-image img {
+        height: 504px;
+        width: 434px;
+        margin-left:-250px;
+    }
+    .features-image img, .features-image {
+        width: 553px;
+        height: 507.5px;   
+        margin-left:-150px; 
+    }
+    #slideFeatures{
+        margin-left:-100px;
+    }
+    .tab-section-sf{
+        width:1400px;
+    }
+    .tab-section-sf img{
+        overflow:hidden;
+        width:200px;
+    }
+    .sf-image{
+        margin-left:-100px;
+        object-fit: cover;
+        width:600px;
+        overflow:hidden;
+    }
+    .sf-image img{  
+        overflow:hidden;
+        width:790px;
+    }
+    #pricingPlan{
+        margin-left:-150px;
+    }
+    #allComments{
+        margin-left:-150px;
+    }
+    #allComments img{
+        margin-left: 100px;
+    }
+    #footer{
+        margin-left:-250px;
+    }
+    .footer-tab{
+        justify-content: space-evenly;
+    }
+    .leftside-footer{
+        margin-right:-100px;
+    }
+  }
+@media only screen and (max-width: 991px) {
+
+  }
+@media only screen and (max-width: 768px) {
+  
+}
+@media only screen and (max-width: 500px) {
+  
+}         
