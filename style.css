@@ -1388,5 +1388,103 @@ color: #FFFFFF;
   }
 }
 @media only screen and (max-width: 500px) {
-  
+  .nav-ul img{
+    display: none;
+  }
+  .interactive-header{
+    margin-top:50px;
+    margin-left:-100px;
+  }
+  .sponsors{
+    flex-direction: column;
+  }
+  .sponsors img{
+    padding:5px;
+  }
+  #header{
+    height:1250px;
+  }
+  .service1, .service2{
+  width:350px;
+  height:250px;
+  padding: 0 15px 0 15px;
+  }
+  .service-text{
+    width: unset;
+  }
+  .features-header{
+    font-size: 30px;
+    width:350px;
+    margin-left:25px;
+    text-align: center;
+  }
+  .features-text{
+    width:350px;
+    margin-left: 25px;
+  }
+  .features-container-shadowed{
+    width: 350px;
+    padding-bottom: 45px;
+    margin-left: 15px;
+  }
+  .features-container-shadowed p{
+    width: 325px;
+  }
+  .features-buttons div{
+    max-width: 325px;
+  }
+  .features-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .workHard-header{
+    font-size: 30px;
+    width:350px;
+    margin-left:50px;
+  }
+  .workHard-text{
+    width:350px;
+    margin-left:50px;
+  }
+  .workHard-benefits{
+    margin-left: 50px;
+  }
+  .workHard-content a{
+    margin-left:75px;
+  }
+  .sf-content-header{
+    font-size: 30px;
+    width:350px;
+  }
+  .sf-text{
+    font-size:14px;
+    width:350px;
+  }
+  .startup-pack, .premium-pack{
+    padding: 10px 0 0 20px;
+    height:675px;
+  }
+  .startup-pack{
+    margin-left:-25px;
+  }
+  .premium-pack{
+    margin-left:450px;
+  }
+  #allComments{
+    display: none;
+  }
+  #footer h2{
+  font-size:22px;
+  }
+  .footer-text{
+    font-size:14px;
+  }
+.leftside-footer{
+margin-left:700px;
+}
+  .copyright p{
+    font-size:12px;
+  }
 }      
