@@ -24,7 +24,9 @@
     width: 1920px;
 }
 /* HEADER */ 
-
+body{
+    overflow: hidden;
+}
 body{
 display:flex;
 align-items:center;
@@ -1248,7 +1250,7 @@ color: #FFFFFF;
     margin-right: -150px;
    }
    .pricing-packs{
-    margin-left:375px;
+    margin-left:350px;
     justify-content: center;
    }
    .premium-pack{
@@ -1294,26 +1296,96 @@ color: #FFFFFF;
     height: 625px;
 }
 .slideFeatures-content{
-    margin-left:-175px;
+    margin-left:-225px;
+    margin-top:-50px;
 }
 .startup-pack, .premium-pack {
     width:unset;
 }
 .footer-tab{
-    height:auto;
-    margin-top:70px;
-    flex-direction: column;
+    margin-top:90px;
+    flex-direction: column-reverse;
     justify-content: center;
+    height: auto;
 }
 .rightside-footer{
-    margin-left:0;
+    margin-left:725px;
+    padding:0px;
+    padding-top: 25px;
 }
 .leftside-footer{
     margin-right:0;
+    margin-left:675px;
+    padding:0px;
+    padding-bottom: 25px;
+}
+.footer-subscribe{
+    margin-left:-225px;
+}
+.title-comments{
+    margin-left:-150px;
 }
   }
 @media only screen and (max-width: 768px) {
-  
+  .top-menu{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .leftside-header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:0px;
+  }
+  .rightside-header{
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+  }
+  .header-content h1{
+    font-size:48px;
+    width:500px;
+  }
+  .header-text{
+    width:400px;
+  }
+  .interactive-header{
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+  .sponsors{
+    margin-left:-50px;
+  }
+  .pricing-packs{
+    flex-direction: column;
+    margin-left:-125px;
+  }
+  #pricingPlan{
+    height: auto;
+    margin-bottom: 25px;
+  }
+  .startup-pack{
+    margin-bottom: 25px;
+  }
+  .premium-pack{
+    margin-left:478px;
+  }
+  #footer h2{
+    font-size:28px;
+  }
+  .interactive-footer  {
+    flex-direction: column;
+    align-items: center ;
+    margin-right:25px;
+  }
+  .footer-form{
+    margin-bottom: 25px;
+  }
+  .footer-tab{
+    height: auto;
+    margin-top:20px;
+  }
 }
 @media only screen and (max-width: 500px) {
   
