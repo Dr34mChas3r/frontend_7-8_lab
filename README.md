@@ -16,6 +16,8 @@
 
 ![ (5)](https://github.com/user-attachments/assets/7fe34588-8ba6-4f87-8881-b6bda66789dd)
 
+фінішна пряма - 
+![Screenshot_20241202-185000_Chrome](https://github.com/user-attachments/assets/151a7cc2-b47c-4d5f-8e44-193e972cf6c5)
 
 
 
