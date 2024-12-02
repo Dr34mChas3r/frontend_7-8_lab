@@ -888,7 +888,7 @@ color: #fffcec;
     flex-direction: column;
     align-items: center;
     height:900px;
-    margin-bottom: 0;
+    margin-bottom: -300px;
 }
 #allComments h2 {
 
@@ -1111,6 +1111,9 @@ color: #FFFFFF;
     .tab-menu{
         justify-content: space;
     }
+    #workHard{
+        justify-content: center;
+    }
   }
 @media only screen and (max-width: 1400px) {
     .top-menu{
@@ -1135,6 +1138,36 @@ color: #FFFFFF;
     #service{
         max-width:1400px;
         margin-left:0px;
+    }
+    .features-image img{
+        height:550px;
+        width: auto;
+        margin-left:-180px;
+    }
+    #workHard{
+        justify-content: center;
+    }
+    .footer-tab{
+        justify-content: center;
+    }
+     .leftside-footer{
+        margin-right:25px;
+        margin-left:-125px;
+     }   
+    .rightside-footer{
+        margin-left:150px;
+    }
+    .footer-subscribe{
+      margin-left:-125px;
+    }
+    .pricing-packs{
+        margin-left:350px;
+    }
+    .startup-pack{
+        margin-left:0px;
+    }
+    .title-pricing{
+        margin-left: -125px;
     }
   }
 @media only screen and (max-width: 1250px) {
@@ -1169,11 +1202,74 @@ color: #FFFFFF;
     margin-left:100px;
    }
    .footer-tab{
-    margin-left:30px;
+    margin-left:-15px;
    }
+   .rightside-footer{
+    margin-left:50px;
+   }
+   .top-menu{
+    max-width:900px;
+    margin-left:300px;
+   }
+   .header-img{
+    display: none;
+   }
+   #service{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .service1{
+    margin-left:0;
+    margin-bottom:50px;
+   }
+   .features-image{
+    margin-left:-100px;
+   }
+   .workHard-content{
+    margin-left:0px;
+   }
+   .workHard-image{
+    margin-left:-75px;
+   }
+
+   .tab-section-sf img{
+  display: none;
+   }
+   .sf-image img{
+    margin-left:100px;
+   }
+   .sf-content{
+    margin-right: -150px;
+   }
+   .pricing-packs{
+    margin-left:375px;
+    justify-content: center;
+   }
+   .premium-pack{
+    margin-left:10px;
+   }
+   .title-pricing{
+    margin-left:-125px;
+   }
+   .title-comments{
+    margin-left:0;
+   }
+   .footer
 }
 @media only screen and (max-width: 991px) {
-
+.top-nav ul{
+    padding:0px;
+}
+.header-logo{
+    margin-right: 0px;
+}
+.get-started-button{
+    display: none;
+}
+.top-menu{
+    margin-left: 425px;
+}
   }
 @media only screen and (max-width: 768px) {
   
